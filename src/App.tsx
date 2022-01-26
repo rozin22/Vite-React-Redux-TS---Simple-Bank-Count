@@ -14,7 +14,7 @@ function App() {
 
   return (
     <div className="App" style={{ background: '#282c34', height: '100%' }}>
-      <h1 style={{ color: 'white' }}>{amount}</h1>
+      <h1 style={{ color: 'white' }}> {amount}</h1>
       <button type="button" onClick={() => depositMoney(1000)}>
         Deposit
       </button>
